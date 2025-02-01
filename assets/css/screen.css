@@ -20,3 +20,39 @@
 @import "misc/utils.css";
 @import "misc/portal.css";
 @import "misc/animations.css";
+
+
+/* Custom Font */
+@font-face {
+    font-family: 'Krungthep';
+    src: url('/assets/fonts/Krungthep.woff2') format('woff2'),
+         url('/assets/fonts/Krungthep.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* CUSTOM CSS */
+
+/* RESIZE GALLERIES SMALLER */
+.kg-gallery-card {
+    grid-column: main !important
+}
+.kg-gallery-container {
+  padding: 1.0em
+}
+.kg-gallery-image img {
+  padding: 0.5em
+}
+/* Reduce spacing between headed sections */
+.gh-content {
+  --content-spacing-multiplier: 0.5;
+}
+/* Recolor the current page */
+.nav-brad-wenner-digital a {
+    color: var(--accent-color) !important;
+    font-family: 'Krungthep', sans-serif !important;
+}
+.nav-brad-wenner-digital {
+    color: var(--accent-color) !important;
+    font-family: 'Krungthep', sans-serif !important;
+}
