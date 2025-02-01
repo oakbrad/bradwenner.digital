@@ -45,7 +45,7 @@
 }
 /* Reduce spacing between headed sections */
 .gh-content {
-  --content-spacing-multiplier: 0.5;
+  --content-spacing-multiplier: 0.5 !important;
 }
 /* BW Digital styling */
 .nav-brad-wenner-digital a {
@@ -54,9 +54,12 @@
     font-family: 'Krungthep', sans-serif !important;
     padding: 1em;
 }
+/* Page Dividier */
 .dot-divider {
     border-top: 30px dotted var(--accent-color); 
     background-color: transparent;
     margin-top: 4em;
     margin-bottom: 4em;
 }
+/* Content Links Bold */
+.gh-content a { font-weight: bold; }
