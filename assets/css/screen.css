@@ -47,12 +47,10 @@
 .gh-content {
   --content-spacing-multiplier: 0.5;
 }
-/* Recolor the current page */
+/* BW Digital styling */
 .nav-brad-wenner-digital a {
-    color: var(--accent-color) !important;
+    color: black !important;
+    background-color: var(--accent-color) !important;
     font-family: 'Krungthep', sans-serif !important;
-}
-.nav-brad-wenner-digital {
-    color: var(--accent-color) !important;
-    font-family: 'Krungthep', sans-serif !important;
+    padding: 1em;
 }
