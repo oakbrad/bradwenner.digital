@@ -62,4 +62,11 @@
     margin-bottom: 4em;
 }
 /* Content Links Bold */
-.gh-content a { font-weight: bold; }
+.gh-content a { 
+  font-weight: bold; 
+  background-color: var(--accent-color);
+  color: black;
+  padding: .15em;
+  display: inline;
+  text-decoration: underline #000 dotted;
+}
