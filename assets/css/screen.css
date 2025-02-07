@@ -68,5 +68,5 @@
   color: black;
   padding: .15em;
   display: inline;
-  text-decoration: underline #000 dotted;
+  text-decoration: underline #000 underline;
 }
