@@ -68,5 +68,8 @@
   color: black;
   padding: .15em;
   display: inline;
-  text-decoration: underline #000 underline;
+  text-decoration: #000 none;
+}
+.gh-content a:hover {
+  text-decoration: underline;
 }
