@@ -72,4 +72,18 @@
 }
 .gh-content a:hover {
   text-decoration: underline;
+  background-color: var(--accent-color) !important;
+}
+
+/* Format Buttons */
+.format-button {
+  color: #000 !important;
+}
+/* Header Subscribe button */
+.gh-head-btn {
+  background-color: var(--accent-color) !important;
+}
+/* Subscribe Button for Portal */
+.gh-portal-triggerbtn-label {
+  color: #000 !important
 }
